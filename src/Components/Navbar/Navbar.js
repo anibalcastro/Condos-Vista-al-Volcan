@@ -20,26 +20,41 @@ const Navbar = () => {
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>
         <ul className={isOpen ? 'nav-menu nav-menu-active' : 'nav-menu'}>
+          <div className='container sombra container-servicios'>
           <li className="nav-item">
             <a href="/" className="nav-link">
               SERVICIOS
             </a>
           </li>
+          </div>
+          
+          <div className='container sombra container-galeria'>
           <li className="nav-item">
             <a href="/" className="nav-link">
               GALERIA
             </a>
           </li>
+
+          </div>
+
+          <div className='container sombra container-ubicacion'>
           <li className="nav-item">
             <a href="/" className="nav-link">
               UBICACION
             </a>
           </li>
+            
+          </div>
+        
+
+          <div className='container sombra container-contacto'>
           <li className="nav-item">
             <a href="/" className="nav-link">
               CONTACTO
             </a>
           </li>
+            
+          </div>
         </ul>
       </div>
     </nav>

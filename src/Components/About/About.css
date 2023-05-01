@@ -1,0 +1,30 @@
+.container-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+}
+
+.photos-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.photo-1, .photo-2{
+    height: auto;
+    width: 360px;
+}
