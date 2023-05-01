@@ -4,8 +4,9 @@
     justify-content: space-around;
     flex-direction: row;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ebebeb;
 }
 
 .about{
@@ -22,6 +23,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.company-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .photo-1, .photo-2{
