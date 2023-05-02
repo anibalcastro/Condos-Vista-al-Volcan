@@ -42,4 +42,14 @@
   .button-reserva:hover {
     background-color: #fff;
   }
+
+  @media screen and (max-width: 767px){
+    .frontpage{
+        /*Cambiar de imagen*/
+    }
+
+    .encabezado-frontpage{
+        text-align: center;
+    }
+  }
   

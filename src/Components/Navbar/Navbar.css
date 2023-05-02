@@ -110,3 +110,27 @@
   .container-contacto{
     background-image: url(../../Images/Contenedor-Contacto.webp);
   }
+
+  @media screen and (max-width: 767px) {
+    .nav-menu{
+      height: 105%;
+      left: -145%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .nav-menu-active{
+      height: 105%;
+      left: 0%;
+      overflow: hidden;
+    }
+
+    .sombra{
+      width: 350px;
+      height: auto;
+    }
+  }
+  

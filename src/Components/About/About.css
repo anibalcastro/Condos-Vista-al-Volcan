@@ -42,3 +42,14 @@
     height: auto;
     width: 360px;
 }
+
+
+@media screen and (max-width: 767px){
+    .container-about{
+        flex-direction: column;
+    }
+
+    .about{
+        width: 350px;
+    }
+  }
