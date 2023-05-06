@@ -11,7 +11,7 @@ const Amenties = () => {
       <div className="container amenities-description">
         <div className="container container-amenitie">
           <div className="circle-background-image">
-            <img className="icono" src={Apartamentos}></img>
+            <img className="icono" src={Apartamentos} alt="Icono"></img>
           </div>
 
           <div className="container details">
@@ -22,7 +22,7 @@ const Amenties = () => {
 
         <div className="container container-amenitie">
           <div className="circle-background-image">
-            <img className="icono" src={Apartamentos}></img>
+            <img className="icono" src={Apartamentos} alt="Icono"></img>
           </div>
 
           <div className="container details">
@@ -33,7 +33,7 @@ const Amenties = () => {
 
         <div className="container container-amenitie">
           <div className="circle-background-image">
-            <img className="icono" src={Apartamentos}></img>
+            <img className="icono" src={Apartamentos} alt="Icono"></img>
           </div>
 
           <div className="container details">
@@ -46,7 +46,7 @@ const Amenties = () => {
       <div className="container amenities-description">
         <div className="container container-amenitie">
           <div className="circle-background-image">
-            <img className="icono" src={Apartamentos}></img>
+            <img className="icono" src={Apartamentos} alt="Icono"></img>
           </div>
 
           <div className="container details">
@@ -57,7 +57,7 @@ const Amenties = () => {
 
         <div className="container container-amenitie">
           <div className="circle-background-image">
-            <img className="icono" src={Apartamentos}></img>
+            <img className="icono" src={Apartamentos} alt="Icono"></img>
           </div>
 
           <div className="container details">
@@ -68,7 +68,7 @@ const Amenties = () => {
 
         <div className="container container-amenitie">
           <div className="circle-background-image">
-            <img className="icono" src={Apartamentos}></img>
+            <img className="icono" src={Apartamentos} alt="Icono"></img>
           </div>
 
           <div className="container details">
