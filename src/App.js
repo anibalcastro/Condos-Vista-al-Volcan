@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Frontpage from './Components/Frontpage/Frontpage';
 import About from './Components/About/About';
+import Amenities from './Components/Amenities/Amenities';
 import { useEffect } from 'react';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </header>
       <Frontpage/>
       <About />
+      <Amenities />
     </div>
   );
 }
