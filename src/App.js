@@ -3,10 +3,11 @@ import Navbar from './Components/Navbar/Navbar';
 import Frontpage from './Components/Frontpage/Frontpage';
 import About from './Components/About/About';
 import Amenities from './Components/Amenities/Amenities';
+import Galeria from './Components/Gallery/Gallery';
 import { useEffect } from 'react';
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     document.title = 'Condos Vista al Volcán';
   })
 
@@ -15,9 +16,12 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <Frontpage/>
-      <About />
-      <Amenities />
+      <main>
+        <Frontpage />
+        <About />
+        <Amenities />
+        <Galeria />
+      </main>
     </div>
   );
 }
