@@ -4,7 +4,10 @@ import Frontpage from './Components/Frontpage/Frontpage';
 import About from './Components/About/About';
 import Amenities from './Components/Amenities/Amenities';
 import Galeria from './Components/Gallery/Gallery';
+import Contact from './Components/Contact/Contact';
+
 import { useEffect } from 'react';
+
 
 function App() {
   useEffect(() => {
@@ -22,6 +25,9 @@ function App() {
         <Amenities />
         <Galeria />
       </main>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 }

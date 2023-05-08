@@ -1,0 +1,31 @@
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.titulo-contacto{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+.a-numero{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #322203;
+    font-size: 30px;
+}
+
+.logo-condos{
+    height: 350px;
+    width: 350px;
+}
+
+.numbers-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
