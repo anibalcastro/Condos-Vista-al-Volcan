@@ -7,7 +7,7 @@ const MyGallery = () => {
 
 
   return (
-    <div className="container gallery">
+    <div id="Gallery" className="container gallery">
       <h2 className="titulo-encabezado">GALERIA</h2>
 
       <Lightbox />

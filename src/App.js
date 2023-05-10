@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Frontpage from './Components/Frontpage/Frontpage';
 import About from './Components/About/About';
 import Amenities from './Components/Amenities/Amenities';
-import Galeria from './Components/Gallery/Gallery';
+import Gallery from './Components/Gallery/Gallery';
 import Contact from './Components/Contact/Contact';
 
 import { useEffect } from 'react';
@@ -21,9 +21,9 @@ function App() {
       </header>
       <main>
         <Frontpage />
-        <About />
-        <Amenities />
-        <Galeria />
+        <About  />
+        <Amenities  />
+        <Gallery  />
       </main>
       <footer>
         <Contact />

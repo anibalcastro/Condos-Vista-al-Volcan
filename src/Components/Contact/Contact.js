@@ -6,7 +6,7 @@ import LogoCondos from "../../Images/LOGO_CONDOMINIOS.webp";
 const Contact = () => {
 
     return (
-        <div className="container contact">
+        <div id="Contact" className="container contact">
             <h2 className="titulo-contacto">CONTACTO</h2>
             <div className="container numbers-logo">
                 <div className="container numbers">

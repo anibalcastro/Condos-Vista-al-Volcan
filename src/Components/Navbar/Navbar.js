@@ -10,52 +10,68 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const ocultarMenu = () =>{
+   let navbar = document.getElementsByClassName('navbar')[0];
+   navbar.style.position= 'absolute';
+   navbar.style.width = '100%'
+   let menu_active = document.getElementsByClassName('nav-menu-active')[0];
+    menu_active.style.display = 'none'
+    setIsOpen(!isOpen);
+  }
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">
-          <img className='logo' src={Logo}></img>
+        <a href="#About" onClick={() => ocultarMenu ()} className="navbar-logo">
+          <img className='logo' src={Logo} alt='Logo'></img>
         </a>
-        <div className="navbar-icon" onClick={toggleMenu}>
-          {isOpen ? <FaTimes /> : <FaBars />}
+
+        <div className='container menu'>
+          <ul className='option'>
+            <li className='nav-item'>
+              <a href='#Amenidades' className='nav-option'>AMENIDADES</a>
+            </li>
+            <li className='nav-item'>
+              <a href='#Gallery' className='nav-option'>GALERIA</a>
+            </li>
+            <li className='nav-item'>
+              <a href='#Contact' className='nav-option'>CONTACTO</a>
+            </li>
+          </ul>
         </div>
-        <ul className={isOpen ? 'nav-menu nav-menu-active' : 'nav-menu'}>
-          <div className='container sombra container-servicios'>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              SERVICIOS
-            </a>
-          </li>
-          </div>
-          
-          <div className='container sombra container-galeria'>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              GALERIA
-            </a>
-          </li>
 
+        <div className='menu-responsive'>
+          <div className="navbar-icon" onClick={toggleMenu}>
+            {isOpen ? <FaTimes /> : <FaBars />}
           </div>
-
-          <div className='container sombra container-ubicacion'>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              UBICACION
-            </a>
-          </li>
+          <ul className={isOpen ? 'nav-menu nav-menu-active' : 'nav-menu'}>
             
-          </div>
-        
-
-          <div className='container sombra container-contacto'>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              CONTACTO
-            </a>
-          </li>
             
-          </div>
-        </ul>
+            <div className='container sombra container-servicios'>
+              <li className="nav-item">
+                <a href="#Amenidades"  onClick={() => ocultarMenu ()} className="nav-link">
+                  AMENIDADES
+                </a>
+              </li>
+            </div>
+
+
+            <div className='container sombra container-galeria'>
+              <li className="nav-item">
+                <a href="#Gallery"  onClick={() => ocultarMenu ()} className="nav-link">
+                  GALERIA
+                </a>
+              </li>
+            </div>
+            <div className='container sombra container-contacto'>
+              <li className="nav-item">
+                <a href="#Contact"  onClick={() => ocultarMenu ()} className="nav-link">
+                  CONTACTO
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
       </div>
     </nav>
   );

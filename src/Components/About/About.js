@@ -4,7 +4,7 @@ import Photo_1 from '../../Images/FRONTPAGE.png'
 
 const About = () => {
   return (
-    <div className="container container-about">
+    <div id="About" className="container container-about">
       <div className="container about">
         <h2 className="company-name">CONDO'S VISTA AL VOLCAN</h2>
         <p className="description">
