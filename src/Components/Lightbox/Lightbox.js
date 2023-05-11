@@ -9,45 +9,45 @@ const Lightbox_Images = () => {
     <>
      <div className="container images">
         <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
             </img>
         </button>
         <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
             </img>
         </button>
         <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
-            </img>
-        </button>
-      </div>
-
-      <div className="container images">
-        <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
-            </img>
-        </button>
-        <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
-            </img>
-        </button>
-        <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
             </img>
         </button>
       </div>
 
       <div className="container images">
         <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
             </img>
         </button>
         <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
             </img>
         </button>
         <button  className="btn-image" onClick={() => setOpen(true)} >
-            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg">
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
+            </img>
+        </button>
+      </div>
+
+      <div className="container images">
+        <button  className="btn-image" onClick={() => setOpen(true)} >
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
+            </img>
+        </button>
+        <button  className="btn-image" onClick={() => setOpen(true)} >
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
+            </img>
+        </button>
+        <button  className="btn-image" onClick={() => setOpen(true)} >
+            <img className="photo" src="https://mlwqw2ckkfdf.i.optimole.com/cb:fi47~3ea6a/w:auto/h:auto/q:mauto/https://www.whattodocr.com/wp-content/uploads/2018/11/condos-vista-al-volcan.jpg" alt="Imagen">
             </img>
         </button>
       </div>

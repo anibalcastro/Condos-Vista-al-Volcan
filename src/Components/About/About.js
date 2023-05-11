@@ -17,9 +17,9 @@ const About = () => {
       </p>
       </div>
       <div className="container photos-about">
-        <img className="photo-1" src={Photo_1}></img>
+        <img className="photo-1" src={Photo_1} alt="Imagen de condominios vista volcan"></img>
         <hr></hr>
-        <img  className="photo-2" src={Photo_1}></img>
+        <img  className="photo-2" src={Photo_1} alt="Imagen de condosminios vista volcan"></img>
       </div>
     </div>
   );
