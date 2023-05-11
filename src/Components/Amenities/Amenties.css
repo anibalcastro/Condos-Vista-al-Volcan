@@ -1,68 +1,77 @@
-.amenities{
-    display: flex;
-    align-items: center;
+.amenities {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.container-amenitie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  transition: transform 0.3s ease-out;
+}
+
+.container-amenitie:hover{
+    transform: scale(1.2);
+}
+
+.all-amenities {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.circle-background-image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #573c09;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.details {
+  padding-left: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 230px;
+}
+
+.details-description {
+  margin-top: -20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.title-details {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .titulo-encabezado {
+    text-align: center;
+    width: min-content;
+  }
+
+  .all-amenities {
     flex-direction: column;
-    width: 100%;
-    height: auto;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-.container-amenitie{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.all-amenities{
-    width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.circle-background-image{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #573C09;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.details{
-    padding-left: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    width: 230px;
-}
-
-.details-description{
-    margin-top: -20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-}
-
-.title-details{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-}
-
-
-@media screen and (max-width: 767px){
-    .titulo-encabezado {
-        text-align: center;
-    }
-
-    .all-amenities{
-        flex-direction: column;
-        width: auto;
-    }
-
+    width: auto;
+  }
 }

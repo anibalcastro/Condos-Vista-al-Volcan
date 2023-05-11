@@ -1,6 +1,9 @@
 import React from "react";
 import './Contact.css'
 import LogoCondos from "../../Images/LOGO_CONDOMINIOS.webp";
+import FacebookIcon from "../../Images/Icons/icons8-facebook-30.png";
+import WhatsAppIcon from "../../Images/Icons/icons8-whatsapp-30.png";
+import InstagramIcon from "../../Images/Icons/icons8-instagram-30.png";
 
 
 const Contact = () => {
@@ -20,6 +23,26 @@ const Contact = () => {
                     <img className="logo-condos" src={LogoCondos} alt="Logotipo"></img>
                 </div>
             </div>
+
+            <div className="container social-media">
+                        <div className="circle-media">
+                            <a className="link-media" href="https://api.whatsapp.com/send?phone=50688717619&text=Hola%2C%20%C2%A1me%20gustar%C3%ADa%20informaci%C3%B3n!%F0%9F%8C%8B"target="_blank" rel="noreferrer">
+                                <img src={WhatsAppIcon} alt="icono red social" />
+                            </a>
+                        </div>
+
+                        <div className="circle-media">
+                            <a className="link-media" href="https://www.facebook.com/lafortunacondos" target="_blank" rel="noreferrer">
+                                <img src={FacebookIcon} alt="icono red social" />
+                            </a>
+                        </div>
+
+                        <div className="circle-media">
+                            <a className="link-media" href="https://www.instagram.com/lafortunacondos/" target="_blank" rel="noreferrer">
+                                <img src={InstagramIcon} alt="icono red social" />
+                            </a>
+                        </div>
+                    </div>  
         </div>
     )
 }
