@@ -4,7 +4,7 @@ import './Frontpage.css';
 const Frontpage = () => {
 
     const reservar = () => {
-        window.open("https://api.whatsapp.com/send?phone=50688717619&text=Hola%2C%20%C2%A1me%20gustar%C3%ADa%20realizar%20una%20reservaci%C3%B3n!%F0%9F%8C%8B", "_blank");
+        window.open("https://www.airbnb.co.cr/users/473801222/listings?user_id=473801222&s=50", "_blank");
     }
 
     return (

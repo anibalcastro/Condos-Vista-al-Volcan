@@ -38,7 +38,7 @@ html {
 
 .navbar a {
   display: block;
-  color: black;
+  color: #573C09;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -161,25 +161,11 @@ html {
 
   .sombra{
     margin-bottom: 20px;
-    width: 680px;
+    width: 340px;
     height: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra a la derecha y abajo del div */
   }
-
-  .container-servicios {
-    background-image: url(../../Images/Contenedor-Servicios.webp);
-  }
-
-  .container-galeria {
-    background-image: url(../../Images/Contenedor-galeria.webp);
-  }
-
-  .container-contacto{
-    background-image: url(../../Images/Contenedor-Contacto.webp);
-  }
-
 }

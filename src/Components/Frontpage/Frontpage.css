@@ -45,7 +45,8 @@
 
   @media screen and (max-width: 767px){
     .frontpage{
-        /*Cambiar de imagen*/
+        background-image: url('../../Images/Background-Mobile.jpg');
+        background-repeat: no-repeat;
     }
 
     .encabezado-frontpage{

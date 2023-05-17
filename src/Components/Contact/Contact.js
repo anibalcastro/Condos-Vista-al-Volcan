@@ -13,11 +13,11 @@ const Contact = () => {
             <h2 className="titulo-contacto">CONTACTO</h2>
             <div className="container numbers-logo">
                 <div className="container numbers">
-                    <a className="a-numero" href="+506 8871 7619">+506 8871 7619</a>
+                    <p className="a-numero" >+506 8871 7619</p>
                     <hr />
-                    <a  className="a-numero" href="+506 8830 5286">+506 8830 5286 </a>
+                    <p  className="a-numero" >+506 8830 5286 </p>
                     <hr />
-                    <a className="a-numero" href="+506 2479 7230">+506 2479 7230</a>
+                    <p className="a-numero" >+506 2479 7230 </p>
                 </div>
                 <div className="container container-logo">
                     <img className="logo-condos" src={LogoCondos} alt="Logotipo"></img>
